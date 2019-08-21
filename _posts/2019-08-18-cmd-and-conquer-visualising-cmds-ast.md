@@ -10,7 +10,7 @@ Towards the end of the article, the author shares an easter egg they discovered 
 
 ![CMD AST Output using fDumpParse with De-Dosfuscator]({{ site.url }}/assets/images/posts/cmdastviz/cmdast-example.png)
 
-The above screenshot shows the AST output from De-Dosfuscator.  Given the input expression:
+The above screenshot shows the AST output from [De-Dosfuscator](https://github.com/fireeye/flare-qdb/blob/master/doc/dedosfuscator.md).  Given the input expression:
 
 ```
 echo foo && echo bar
@@ -50,11 +50,11 @@ Given the following input:
             Cmd: echo  Type: 0 Args: ` bar'
     Cmd: echo  Type: 0 Args: ` baz'
 ```
-...which I feed in to my parser (`CMD-AST-View`), which in turn produces a [GraphViz](https://www.graphviz.org/) drawing:
+...which I feed in to [`CMD-AST-View`](https://github.com/bobbystacksmash/CMD-AST-View), which in turn produces a [GraphViz](https://www.graphviz.org/) drawing:
 
 ![Example CMDASTView Output]({{ site.url }}/assets/images/posts/cmdastviz/ex2.ast.png)
 
-While it may not solve the problem of presenting a pre-order AST, `CMD-AST-View` does *hopefully* help make the AST easier to read.  The GitHub project contains an [F#](https://fsharp.org/) library for parsing the `fDumpParse` output, and a command line utility that reads an AST from STDIN, and writes a GraphViz program to STDOUT, similar to:
+While it may not solve the problem of presenting a pre-order AST, [`CMD-AST-View`](https://github.com/bobbystacksmash/CMD-AST-View) does *hopefully* help make the AST easier to read.  The GitHub project contains an [F#](https://fsharp.org/) library for parsing the `fDumpParse` output, and a command line utility that reads an AST from STDIN, and writes a GraphViz program to STDOUT, similar to:
 
 ```sh
 cat example.ast | cmdast2dot | dot -Tpng -o example-ast.png

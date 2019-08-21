@@ -1,7 +1,14 @@
 ---
-layout: single
+layout: splash
 title:  "Cmd and Conquer: Visualising CMD's Abstract Syntax Tree"
 tags: [CMD, FSharp, GraphViz, DataViz, AST]
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/posts/cmdastviz/alvaro-reyes-qWwpHwip31M-unsplash.jpg
+  caption: "Photo by Alvaro Reyes on [**Unsplash**](https://unsplash.com/@alvaroreyes)"
+excerpt: "An F# library for converting a CMD sequence in to a GraphViz drawing."
+intro: 
 ---
 
 In November 2018 FireEye released a report titled [Cmd and Conquer: De-DOSfuscation with flare-qdb](https://www.fireeye.com/blog/threat-research/2018/11/cmd-and-conquer-de-dosfuscation-with-flare-qdb.html).

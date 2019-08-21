@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "#include &lt;title.h&gt;"
+title                    : "malware |> analysis"
 title_separator          : "-"
-name                     : "-"
-description              : "// Malware analysis and Programming"
+name                     : "Bob"
+description              : "Malware Analysis"
 url                      : "https://bobbystacksmash.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "bobbystacksmash"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : " "
   location         : "Somewhere"

@@ -1,7 +1,9 @@
 # main links
 main:
-  # - title: "Posts"
-  #   url: https://bobbystacksmash.github.io/about/
+   - title: "Home"
+     url: /
+   - title: "Posts"
+     url: /posts/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

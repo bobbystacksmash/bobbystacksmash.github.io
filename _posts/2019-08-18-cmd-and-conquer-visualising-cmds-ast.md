@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Cmd and Conquer: Visualising CMD's Abstract Syntax Tree"
+tags: [CMD, FSharp, GraphViz, DataViz, AST]
 ---
 
 In November 2018 FireEye released a report titled [Cmd and Conquer: De-DOSfuscation with flare-qdb](https://www.fireeye.com/blog/threat-research/2018/11/cmd-and-conquer-de-dosfuscation-with-flare-qdb.html).
